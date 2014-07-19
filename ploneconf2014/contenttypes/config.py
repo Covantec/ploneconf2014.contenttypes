@@ -3,6 +3,7 @@
 PROJECTNAME = 'ploneconf2014.contenttypes'
 
 DEPENDENCIES = [
+    'plone.api',
     'plone.app.dexterity',
     'plone.namedfile',
     ]

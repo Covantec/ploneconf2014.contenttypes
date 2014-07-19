@@ -29,6 +29,7 @@ setup(name='ploneconf2014.contenttypes',
           'plone.app.dexterity [grok]',
           'plone.namedfile [blobs]',
           # -*- Extra requirements: -*-
+          'plone.api',
       ],
       extras_require={
         'test': ['plone.app.testing'],
